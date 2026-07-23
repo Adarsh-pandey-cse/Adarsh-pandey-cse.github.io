@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 195" width="480" height="195">
+<defs>
+  <clipPath id="statsRounded"><rect width="480" height="195" rx="18"/></clipPath>
+  <linearGradient id="ringGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#ff6ec7"/>
+    <stop offset="100%" stop-color="#8b5cf6"/>
+  </linearGradient>
+  <radialGradient id="bgGlow" cx="50%" cy="50%" r="70%">
+    <stop offset="0%" stop-color="#3a1a5c"/>
+    <stop offset="100%" stop-color="#150a24"/>
+  </radialGradient>
+</defs>
+<g clip-path="url(#statsRounded)">
+  <rect width="480" height="195" fill="url(#bgGlow)"/>
+  <rect x="0.5" y="0.5" width="479" height="194" rx="17.5" fill="none" stroke="#ff8ad0" stroke-width="1"/>
+
+  <text x="24" y="30" font-family="'Segoe UI',Arial,sans-serif" font-size="16" font-weight="700" fill="#f3e8ff">Adarsh's GitHub Stats</text>
+
+  <!-- rank ring -->
+  <g transform="translate(400,100)">
+    <circle r="42" fill="none" stroke="#150a24" stroke-width="9"/>
+    <circle r="42" fill="none" stroke="url(#ringGrad2)" stroke-width="9" stroke-linecap="round"
+      stroke-dasharray="263.9" stroke-dashoffset="263.9" transform="rotate(-90)">
+      <animate attributeName="stroke-dashoffset" from="263.9" to="58.1"
+        begin="0.4s" dur="1.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+    </circle>
+    <text x="0" y="7" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="26" font-weight="800" fill="#f3e8ff" opacity="0">
+      A
+      <animate attributeName="opacity" from="0" to="1" begin="1.5s" dur="0.5s" fill="freeze"/>
+    </text>
+  </g>
+
+  <g transform="translate(60,50)">
+    <g transform="translate(-40,30)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.70s" dur="0.5s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="-40 30" to="0 30" begin="0.70s" dur="0.5s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+      <text x="0" y="0" font-family="'Segoe UI',Arial,sans-serif" font-size="14.5" fill="#c9a8e9">&#11044;</text>
+      <text x="14" y="0" font-family="'Segoe UI',Arial,sans-serif" font-size="14.5" fill="#f3e8ff">Total Stars:</text>
+      <text x="230" y="0" font-family="'JetBrains Mono',monospace" font-size="14.5" font-weight="700" fill="#ff6ec7">128</text>
+    </g>
+<g transform="translate(-40,60)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="0.88s" dur="0.5s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="-40 60" to="0 60" begin="0.88s" dur="0.5s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+      <text x="0" y="0" font-family="'Segoe UI',Arial,sans-serif" font-size="14.5" fill="#c9a8e9">&#11044;</text>
+      <text x="14" y="0" font-family="'Segoe UI',Arial,sans-serif" font-size="14.5" fill="#f3e8ff">Total Commits (2026):</text>
+      <text x="230" y="0" font-family="'JetBrains Mono',monospace" font-size="14.5" font-weight="700" fill="#ff6ec7">940</text>
+    </g>
+<g transform="translate(-40,90)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="1.06s" dur="0.5s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="-40 90" to="0 90" begin="1.06s" dur="0.5s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+      <text x="0" y="0" font-family="'Segoe UI',Arial,sans-serif" font-size="14.5" fill="#c9a8e9">&#11044;</text>
+      <text x="14" y="0" font-family="'Segoe UI',Arial,sans-serif" font-size="14.5" fill="#f3e8ff">Total PRs:</text>
+      <text x="230" y="0" font-family="'JetBrains Mono',monospace" font-size="14.5" font-weight="700" fill="#ff6ec7">63</text>
+    </g>
+<g transform="translate(-40,120)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="1.24s" dur="0.5s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="-40 120" to="0 120" begin="1.24s" dur="0.5s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+      <text x="0" y="0" font-family="'Segoe UI',Arial,sans-serif" font-size="14.5" fill="#c9a8e9">&#11044;</text>
+      <text x="14" y="0" font-family="'Segoe UI',Arial,sans-serif" font-size="14.5" fill="#f3e8ff">Total Issues:</text>
+      <text x="230" y="0" font-family="'JetBrains Mono',monospace" font-size="14.5" font-weight="700" fill="#ff6ec7">21</text>
+    </g>
+<g transform="translate(-40,150)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="1.42s" dur="0.5s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="-40 150" to="0 150" begin="1.42s" dur="0.5s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+      <text x="0" y="0" font-family="'Segoe UI',Arial,sans-serif" font-size="14.5" fill="#c9a8e9">&#11044;</text>
+      <text x="14" y="0" font-family="'Segoe UI',Arial,sans-serif" font-size="14.5" fill="#f3e8ff">Contributed to:</text>
+      <text x="230" y="0" font-family="'JetBrains Mono',monospace" font-size="14.5" font-weight="700" fill="#ff6ec7">14</text>
+    </g>
+  </g>
+</g>
+</svg>
